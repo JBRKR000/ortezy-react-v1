@@ -1,13 +1,15 @@
-
 .expandable-grid-container {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url("../../assets/img/anatomy.jpg");
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    height: 80vh;
+    background-size: cover;
+    height: 100vh;
+    min-height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .expandable-button-wrapper {
@@ -15,9 +17,10 @@
 }
 
 .expandable-content {
+    animation: fadeIn 0.5s ease-out;
     position: absolute;
     top: 100%;
-    left: 0;
+    left: 5%;
     width: 100%;
     background-color: #f8f9fa;
     padding: 1rem;
@@ -51,16 +54,21 @@
 }
 
 .popup-window {
+    animation: fadeIn 0.25s ease-out;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
+    background: linear-gradient(45deg, rgb(244, 246, 248) 0%, rgb(195, 214, 234) 100%);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 1100;
-    padding: 1rem;
-    width: 300px;
-    text-align: center;
+    padding: 2rem;
+    width: 1000px;
+    height: auto;
+    max-width: 90%;
+    max-height: 90%;
+    overflow-y: auto;
+    text-align: left;
 }
 
 .popup-content {
@@ -73,4 +81,13 @@
 
 .mb-3 {
     margin-bottom: 1rem;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

@@ -28,8 +28,7 @@ const Navbar = () => {
                 <div className={`collapse navbar-collapse ${menuOpen ? 'show' : ''}`} id="navbarResponsive">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item"><Link to="/" className="nav-link">Strona główna</Link></li>
-                        {/*<li className="nav-item"><a className="nav-link" href="#">Sklepy i producenci</a></li>*/}
-                        <li className="nav-item"><a className="nav-link" href="#">Kontakt</a></li>
+                        <li className="nav-item"><Link to="/kontakt" className="nav-link" href="#">Kontakt</Link></li>
                         <li className="nav-item"><a className="nav-link" href="#">FAQ</a></li>
                     </ul>
                 </div>

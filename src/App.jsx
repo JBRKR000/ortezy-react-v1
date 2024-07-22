@@ -3,6 +3,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import MainPage from "./pages/MainPage";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import RodzajeOrtezPage from "./pages/RodzajeOrtezPage";
+import KontaktPage from "./pages/KontaktPage";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
         <Routes>
             <Route index element={<MainPage/>}/>
             <Route path="/rodzaje-ortez" element={<RodzajeOrtezPage/>}/>
+            <Route path="/kontakt" element={<KontaktPage/>}/>
             <Route path="*" element={<MainPage/>}/>
         </Routes>
       </BrowserRouter>

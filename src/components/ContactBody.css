@@ -1,0 +1,12 @@
+.container-custom {
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+button.btn-primary {
+    margin-top: 20px;
+}
