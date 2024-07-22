@@ -15,3 +15,8 @@ This project is a modern website dedicated to orthoses, built using React and Bo
 - **React**: A JavaScript library for building user interfaces.
 - **Bootstrap**: A CSS framework for creating responsive and mobile-first websites.
 
+## License
+All Rights Reserved
+
+This project and its contents are the sole property of the project owner. Unauthorized copying, distribution, modification, or any other use of the project and its components without explicit written permission from the owner is strictly prohibited.
+
