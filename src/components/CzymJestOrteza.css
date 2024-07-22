@@ -1,0 +1,18 @@
+.about-section {
+    position: relative;
+    background: linear-gradient(45deg, rgba(7, 111, 225, 0.87) 0%, rgba(125, 182, 239, 0.87) 100%),
+    url("../../assets/img/about_section_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    margin-bottom: 50px;
+}
+
+.about-section.visible {
+    opacity: 1;
+}
+.about-section p{
+    position: relative;
+}

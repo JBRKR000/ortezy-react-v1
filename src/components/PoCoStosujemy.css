@@ -1,0 +1,18 @@
+.projects-section {
+    position: relative;
+    background: linear-gradient(45deg, rgba(7, 111, 225, 0.87) 0%, rgba(125, 182, 239, 0.87) 100%);
+}
+.btn-outline-primary{
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #0ea9e1;
+    transition: background-color .3s ease;
+
+}
+.btn-outline-primary:hover{
+    transition: background-color 0.3s;
+    color: rgba(0, 0, 0, 0.87);
+    outline-color: rgba(2, 147, 255, 0.87);
+    border-color: rgba(2, 147, 255, 0.87);
+    background-color: rgba(2, 147, 255, 0.87);
+}

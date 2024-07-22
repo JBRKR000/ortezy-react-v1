@@ -1,0 +1,76 @@
+
+.expandable-grid-container {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url("../../assets/img/anatomy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.expandable-button-wrapper {
+    position: relative;
+}
+
+.expandable-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.expandable-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.expandable-content ul li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.expandable-content ul li:last-child {
+    border-bottom: none;
+}
+
+.expandable-content ul li a {
+    text-decoration: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.expandable-content ul li a:hover {
+    text-decoration: underline;
+}
+
+.popup-window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1100;
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+}
+
+.popup-content {
+    padding: 1rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
