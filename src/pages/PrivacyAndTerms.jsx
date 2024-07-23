@@ -2,20 +2,23 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ContactBody from "../components/ContactBody";
+import PrivacyPolicy from "../components/PrivacyPolicy";
+import TermsOfUse from "../components/TermsOfUse";
 
-const KontaktPage = () => {
+
+const PrivacyAndTerms = () => {
     return (
         <>
-            <Navbar />
+            <Navbar/>
             <br/>
             <br/>
-            <ContactBody />
+            <PrivacyPolicy/>
+            <TermsOfUse/>
             <br/>
             <br/>
-            <Footer />
+            <Footer/>
         </>
     );
 }
 
-export default KontaktPage;
+export default PrivacyAndTerms;

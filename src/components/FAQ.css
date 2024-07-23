@@ -1,0 +1,21 @@
+.accordion-button {
+    background-color: #fcfcfc;
+    padding: 1em;
+    border: 1px solid #dee2e6;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.accordion-body {
+    animation: fadeIn 0.25s ease-in-out;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -2,15 +2,27 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ContactBody from "../components/ContactBody";
+import FAQ from "../components/FAQ";
 
-const KontaktPage = () => {
+const FaqPage = () => {
     return (
         <>
             <Navbar />
             <br/>
             <br/>
-            <ContactBody />
+            <FAQ />
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <br/>
             <br/>
             <Footer />
@@ -18,4 +30,4 @@ const KontaktPage = () => {
     );
 }
 
-export default KontaktPage;
+export default FaqPage;

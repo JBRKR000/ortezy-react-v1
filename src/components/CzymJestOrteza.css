@@ -8,3 +8,6 @@
     opacity: 1;
     margin-bottom: 50px;
 }
+.text-justify {
+    text-align: justify;
+}

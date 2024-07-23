@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 const PoCoStosujemy = () => {
     return (
             <div className="container px-4 px-lg-4">
-                <div className="row gx-4 gx-lg-4 justify-content-left">
+                <div className="row gx-4 gx-lg-4 text-justify">
                     <div className="col-lg-8">
                         <h2 className="text-dark mb-4">Po co stosujemy ortezy?</h2>
                         <p className="text-black">

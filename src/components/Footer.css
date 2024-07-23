@@ -1,3 +1,15 @@
 .footer{
     background: linear-gradient(45deg, rgba(7, 111, 225, 0.87) 0%, rgba(125, 182, 239, 0.87) 100%);
 }
+.footer .social-icons a {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+    color: #d4af37;
+}
+
+.footer p {
+    margin-top: 10px;
+}

@@ -1,4 +1,6 @@
 .container-custom {
+    padding: 0.5em 0.5em 0.5em;
+    border-radius: 0.5em;
     max-width: 800px;
     margin: auto;
 }
@@ -8,5 +10,6 @@ h2 {
 }
 
 button.btn-primary {
+    background-color: rgb(13, 143, 236);
     margin-top: 20px;
 }

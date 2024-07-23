@@ -122,7 +122,7 @@ const ExpandableButtonGrid = () => {
                 <div className="popup-window">
                     <div className="popup-content">
                         <ReactMarkdown>{content}</ReactMarkdown>
-                        <button className="btn btn-secondary" onClick={() => setSelectedOption(null)}>Close</button>
+                        <button className="btn btn-secondary" onClick={() => setSelectedOption(null)}>Zamknij</button>
                     </div>
                 </div>
             )}

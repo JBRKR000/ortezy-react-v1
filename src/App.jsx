@@ -4,6 +4,10 @@ import MainPage from "./pages/MainPage";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import RodzajeOrtezPage from "./pages/RodzajeOrtezPage";
 import KontaktPage from "./pages/KontaktPage";
+import FAQ from "./components/FAQ";
+import FaqPage from "./pages/FaqPage";
+import PrivacyAndTerms from "./pages/PrivacyAndTerms";
+
 
 const App = () => {
   return (
@@ -12,6 +16,8 @@ const App = () => {
             <Route index element={<MainPage/>}/>
             <Route path="/rodzaje-ortez" element={<RodzajeOrtezPage/>}/>
             <Route path="/kontakt" element={<KontaktPage/>}/>
+            <Route path="/faq" element={<FaqPage/>} />
+            <Route path="/privacy-and-terms" element={<PrivacyAndTerms/>} />
             <Route path="*" element={<MainPage/>}/>
         </Routes>
       </BrowserRouter>

@@ -47,6 +47,8 @@ const ContactBody = () => {
     return (
         <Container className="container-custom mt-5">
             <h2>Masz jakieś pytania? Chętnie na nie odpowiemy!</h2>
+            <h6>Wypełnij poniższy formularz aby wysłać wiadomość</h6>
+            <br/>
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="firstName">
                     <Form.Label>Imię</Form.Label>

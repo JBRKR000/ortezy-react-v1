@@ -19,18 +19,19 @@
     padding: 0 15px;
 }
 .masthead h1 {
+    font-family: "Arial", serif !important;
     animation: fadeIn 1.5s ease;
     font-size: calc(4.25rem + 2vw);
     font-weight: 700;
     line-height: 10rem;
-    background-color: rgb(44, 44, 47);
-    text-shadow: 8px 5px 6px rgba(0, 0, 0, 0.2);
+    background-color: rgb(171, 171, 173);
+    text-shadow: 8px 5px 6px rgba(5, 5, 5, 0.2);
 }
 .masthead h2 {
     animation: fadeIn 1.5s ease;
     font-size: calc(1rem + 1.5vw);
     font-weight: 400;
-    color: #dad3d3;
+    color: #bbb5b5;
     word-break: break-word;
 }
 .btn-primary {
