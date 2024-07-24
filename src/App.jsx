@@ -7,6 +7,7 @@ import KontaktPage from "./pages/KontaktPage";
 import FAQ from "./components/FAQ";
 import FaqPage from "./pages/FaqPage";
 import PrivacyAndTerms from "./pages/PrivacyAndTerms";
+import AboutUs from "./pages/AboutUs";
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
             <Route path="/kontakt" element={<KontaktPage/>}/>
             <Route path="/faq" element={<FaqPage/>} />
             <Route path="/privacy-and-terms" element={<PrivacyAndTerms/>} />
+            <Route path="/about-us" element={<AboutUs/>}/>
             <Route path="*" element={<MainPage/>}/>
         </Routes>
       </BrowserRouter>

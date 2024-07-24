@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import {Link} from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -35,7 +36,7 @@ const Footer = () => {
                 </div>
                 <p>&copy; {new Date().getFullYear()} Created by <strong>pro-link.pl</strong>. All rights reserved.</p>
                 <p>
-                    <a href="/privacy-and-terms" className="text-white">Polityka prywatności i Warunki użytkowania</a>
+                    <Link to="/privacy-and-terms" className="text-white">Polityka prywatności i Warunki użytkowania</Link>
                 </p>
             </div>
         </footer>
