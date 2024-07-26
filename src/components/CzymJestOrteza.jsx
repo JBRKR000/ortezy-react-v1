@@ -25,12 +25,12 @@ const CzymJestOrteza = () => {
         return processedText;
     };
 
-    const text = `Orteza to zaawansowane urządzenie ortopedyczne, zaprojektowane w celu zapewnienia wsparcia, stabilizacji oraz korekcji ruchu określonych części ciała.
-                            Jest to niezwykle użyteczne narzędzie terapeutyczne, mające szerokie zastosowanie w profilaktyce oraz rehabilitacji.
+    const text = `Orteza to zaawansowane urządzenie ortopedyczne, zaprojektowane w celu zapewnienia wsparcia, stabilizacji  oraz korekcji ruchu określonych części ciała.
+                            Jest to niezwykle użyteczne narzędzie terapeutyczne, mające szerokie zastosowanie w profilaktyce  oraz rehabilitacji.
                             Ortezy są projektowane z myślą o różnych celach terapeutycznych. Mogą służyć jako środek zapobiegawczy, redukując ryzyko urazów poprzez wspieranie naturalnych funkcji ciała.
                             Jednocześnie są nieocenione w procesie rehabilitacji po urazach, gdzie ich głównym zadaniem jest przywracanie funkcji i stabilizacji dotkniętych obszarów.
                             Te urządzenia ortopedyczne mogą być wykonane z różnorodnych materiałów, takich jak tworzywa sztuczne, metal czy elastyczne tkaniny.
-                            Każdy rodzaj ortezy ma specyficzne zastosowanie i jest dostosowany do indywidualnych potrzeb pacjenta oraz rodzaju uszkodzenia, które ma wspierać.`;
+                            Każdy rodzaj ortezy  ma specyficzne zastosowanie  i jest dostosowany do indywidualnych potrzeb pacjenta  oraz rodzaju uszkodzenia, które  ma wspierać.`;
 
     return (
         <section className={`about-section text-left ${isVisible ? 'visible' : ''}`} id="about" ref={ref}>
