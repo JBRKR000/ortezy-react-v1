@@ -16,10 +16,10 @@ const Footer = () => {
                        className="text-white mx-2">
                         <FontAwesomeIcon icon={faFacebook} size="2x"/>
                     </a>
-                    <a href="https://www.x.com" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
+                    <a href="https://www.x.com/" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
                         <FontAwesomeIcon icon={faXTwitter} size="2x"/>
                     </a>
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
                        className="text-white mx-2">
                         <FontAwesomeIcon icon={faInstagram} size="2x"/>
                     </a>
@@ -28,7 +28,7 @@ const Footer = () => {
                        className="text-white mx-2">
                         <FontAwesomeIcon icon={faLinkedin} size="2x"/>
                     </a>
-                    <a href="https://www.pro-link.pl" target="pro-link.pl" rel="noopener noreferrer"
+                    <a href="https://www.pro-link.pl/" target="pro-link.pl" rel="noopener noreferrer"
                        className="text-white mx-2">
                         <FontAwesomeIcon icon={faGlobe} size="2x"/>
                     </a>
